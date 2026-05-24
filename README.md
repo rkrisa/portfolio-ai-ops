@@ -1,0 +1,47 @@
+# Ricardo Krisanoski - AI Operations Portfolio
+
+Public portfolio of applied AI, CRM automation, revenue operations and workflow systems built around real business problems.
+
+The goal of this repository is to document how I design practical operating systems: turning scattered business context into workflows, queues, dashboards and human-in-the-loop AI assistance.
+
+## Positioning
+
+I build AI-assisted operating systems for chat-driven and operations-heavy businesses.
+
+Core themes:
+
+- CRM automation and sales operations;
+- WhatsApp/chat commerce workflows;
+- lead prioritization and follow-up systems;
+- human-in-the-loop AI;
+- data-to-dashboard operating layers;
+- n8n, Make, APIs, Postgres and reporting workflows.
+
+## Case Studies
+
+| Case | Status | What it demonstrates |
+| --- | --- | --- |
+| [AI Lead Intelligence for Chat Commerce](cases/ai-lead-intelligence-chat-commerce/README.md) | Draft public version | CRM automation, lead scoring, AI-assisted prioritization, seller workflow design |
+
+## How The Cases Are Written
+
+Each case follows the same structure:
+
+1. Business context.
+2. Problem.
+3. Solution.
+4. Architecture.
+5. Stack.
+6. Results or metrics to collect.
+7. Lessons learned.
+8. Public guardrails.
+
+Sensitive client, customer, revenue and operational data is removed or anonymized. The focus is on problem-solving, architecture, execution and transferable business impact.
+
+## Repository Roadmap
+
+See [ROADMAP.md](ROADMAP.md).
+
+## Publishing
+
+See [PUBLISHING.md](PUBLISHING.md) for the recommended GitHub setup.
