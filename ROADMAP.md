@@ -11,8 +11,12 @@
    - manual hours saved;
    - sellers/users impacted.
 3. Add anonymized architecture images or dashboard screenshots.
-4. Create the second case: `AI Conversation Summary and CRM Hygiene`.
-5. Create the third case: `AI-assisted Quote Recovery for Chat Commerce`.
+4. Add public-safe screenshots or architecture diagrams for the draft cases.
+5. Convert the remaining backlog candidates into public drafts when they have enough proof.
+
+## Recent Implementation Backlog
+
+See [CASE_BACKLOG.md](CASE_BACKLOG.md) for the current list of recent implementations that can become anonymized public cases.
 
 ## Minimum Public GitHub Setup
 
@@ -35,4 +39,3 @@
 - Avoid customer names, phone numbers, order IDs, internal URLs and screenshots with real leads.
 - Keep architecture and decision logic visible.
 - Use metrics only when they are safe and defensible.
-

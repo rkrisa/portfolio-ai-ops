@@ -22,6 +22,12 @@ Core themes:
 | Case | Status | What it demonstrates |
 | --- | --- | --- |
 | [AI Lead Intelligence for Chat Commerce](cases/ai-lead-intelligence-chat-commerce/README.md) | Draft public version | CRM automation, lead scoring, AI-assisted prioritization, seller workflow design |
+| [Context-Aware AI Reception Agent for Chat Commerce](cases/context-aware-ai-reception-agent/README.md) | Draft public version | Context engineering, AI guardrails, CRM/campaign-aware response design |
+| [Human-in-the-Loop Commercial Follow-up Automation](cases/human-in-the-loop-commercial-follow-up/README.md) | Draft public version | Follow-up queues, lane limits, human review and revenue operations |
+| [Marketplace ERP Read-Only Integration and Catalog Proxy](cases/marketplace-erp-catalog-proxy/README.md) | Draft public version | OAuth/API integration, read-first automation and credential hygiene |
+| [Lightweight ATS and Candidate Intake System](cases/lightweight-ats-candidate-intake/README.md) | Draft public version | Careers portal, structured intake, role-fit scoring and hiring handoff |
+
+Upcoming anonymized case candidates are tracked in [CASE_BACKLOG.md](CASE_BACKLOG.md).
 
 ## How The Cases Are Written
 
