@@ -32,7 +32,10 @@ AI agents in revenue workflows should not just be "better prompts."
 
 They need operating layers: context resolution, guardrails, structured outputs and human review.
 
-I wrote the public case here:
+I wrote the full article here:
+
+https://dev.to/rkrisa/i-added-a-context-resolver-before-an-ai-sales-agent-replies-2o5f
+
+And the public case study is here:
 
 https://github.com/rkrisa/portfolio-ai-ops/tree/main/cases/context-aware-ai-reception-agent
-

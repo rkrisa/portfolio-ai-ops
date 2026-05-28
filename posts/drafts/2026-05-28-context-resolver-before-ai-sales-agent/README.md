@@ -2,7 +2,7 @@
 
 ## Status
 
-Ready for review.
+Published on DEV. LinkedIn post ready.
 
 ## Source Case
 
@@ -13,6 +13,11 @@ Ready for review.
 
 - `devto.md`: long-form article for DEV Community.
 - `linkedin.md`: short LinkedIn post.
+- `assets/context-before-generation-linkedin.png`: LinkedIn image.
+
+## Published URLs
+
+- DEV: <https://dev.to/rkrisa/i-added-a-context-resolver-before-an-ai-sales-agent-replies-2o5f>
 
 ## Publishing Notes
 
@@ -20,4 +25,3 @@ Ready for review.
 - Do not add screenshots with real leads, internal URLs or CRM data.
 - Keep all metrics as `metrics to collect` until validated.
 - Suggested DEV tags: `ai`, `automation`, `crm`, `architecture`.
-
