@@ -1,10 +1,3 @@
----
-title: "I added a context resolver before an AI sales agent replies"
-published: false
-description: "Why the hardest part of an AI sales agent is not the prompt, but deciding which business context the model should trust."
-tags: ai, automation, crm, architecture
----
-
 Most AI sales agents fail before the model writes a single word.
 
 The failure is not always the prompt. It is usually the context.
@@ -58,17 +51,16 @@ The system first decides which commercial context is most trustworthy. Only then
 
 ## The Architecture
 
-```mermaid
-flowchart LR
-  A["Incoming chat lead"] --> B["CRM and conversation lookup"]
-  C["Campaign/source context"] --> D["Context resolver"]
-  B --> D
-  E["Approved response rules"] --> D
-  D --> F["Resolved commercial context"]
-  F --> G["AI response agent"]
-  G --> H["Structured response and routing decision"]
-  H --> I["Customer reply or human handoff"]
-```
+The workflow looks like this:
+
+1. Incoming chat lead.
+2. CRM and conversation lookup.
+3. Campaign or source-context lookup.
+4. Context resolver.
+5. Resolved commercial context.
+6. AI response agent.
+7. Structured response and routing decision.
+8. Customer reply or human handoff.
 
 The resolver is intentionally boring.
 
@@ -136,4 +128,3 @@ That is why I prefer designing AI agents as operating workflows: context resolut
 The public case study is here:
 
 <https://github.com/rkrisa/portfolio-ai-ops/tree/main/cases/context-aware-ai-reception-agent>
-
