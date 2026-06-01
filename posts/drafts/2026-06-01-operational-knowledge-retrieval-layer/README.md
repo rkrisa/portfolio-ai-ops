@@ -14,7 +14,8 @@ DEV draft created. LinkedIn post ready. Asset ready.
 - `devto.md`: long-form article for DEV Community.
 - `devto-metadata.md`: DEV title, description and tags.
 - `linkedin.md`: short LinkedIn post.
-- `assets/operational-knowledge-retrieval-layer-linkedin.svg`: 16:9 public-safe image asset.
+- `assets/operational-knowledge-retrieval-layer-linkedin.png`: 16:9 public-safe image asset.
+- `assets/operational-knowledge-retrieval-layer-linkedin.svg`: editable source version of the same visual.
 - `assets/operational-knowledge-retrieval-layer-linkedin.png`: generated 16:9 LinkedIn cover.
 
 ## Publishing Notes
