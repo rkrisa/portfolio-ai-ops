@@ -1,0 +1,10 @@
+{"id":"gq_001","query":"The lead came from a campaign but sent a vague message. What should the agent do?","expected_source_name":"approved_response_rules_v1","expected_behavior":"ask a concise clarifying question instead of guessing"}
+{"id":"gq_002","query":"The customer asks for a custom discount. Can the AI answer directly?","expected_source_name":"approved_response_rules_v1","expected_behavior":"route to human review"}
+{"id":"gq_003","query":"Should campaign attribution override the latest explicit customer message?","expected_source_name":"campaign_context_v1","expected_behavior":"use campaign context as confirmation, not override"}
+{"id":"gq_004","query":"What happens when retrieved context conflicts?","expected_source_name":"handoff_rules_v1","expected_behavior":"handoff to a human reviewer"}
+{"id":"gq_005","query":"The product category is known. Should the answer mention unrelated products?","expected_source_name":"product_context_v1","expected_behavior":"stay specific to the known category"}
+{"id":"gq_006","query":"No approved source exists for a customer request. What is the safe behavior?","expected_source_name":"handoff_rules_v1","expected_behavior":"do not answer from unsupported context; handoff or no-answer"}
+{"id":"gq_007","query":"The request involves a refund concern. What should happen before replying?","expected_source_name":"approved_response_rules_v1","expected_behavior":"human review before customer-facing answer"}
+{"id":"gq_008","query":"How should source context be used in a reply workflow?","expected_source_name":"campaign_context_v1","expected_behavior":"confirm likely intent without overriding stronger signals"}
+{"id":"gq_009","query":"The lead asks for unusual delivery terms. Is this normal automation?","expected_source_name":"handoff_rules_v1","expected_behavior":"handoff due to non-standard condition"}
+{"id":"gq_010","query":"The agent cannot determine buying stage or product interest. What is the next move?","expected_source_name":"approved_response_rules_v1","expected_behavior":"ask one clarifying question"}

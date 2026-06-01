@@ -69,15 +69,28 @@ $description = Get-MetadataBlock -Text $metadata -Heading "Description"
 $tagsText = Get-MetadataBlock -Text $metadata -Heading "Tags"
 $tags = $tagsText.Split(",") | ForEach-Object { $_.Trim() } | Where-Object { $_ }
 
-$article = @{
-  title = $title
-  published = [bool]$Publish
-  body_markdown = $bodyMarkdown
-  description = $description
-  tags = $tags
+function ConvertTo-JsonStringLiteral {
+  param(
+    [AllowNull()]
+    [string]$Value
+  )
+
+  if ($null -eq $Value) {
+    return 'null'
+  }
+
+  $escaped = $Value.Replace('\', '\\').Replace('"', '\"').Replace("`r", '\r').Replace("`n", '\n').Replace("`t", '\t')
+  return '"' + $escaped + '"'
 }
 
-$payload = @{ article = $article } | ConvertTo-Json -Depth 8
+$tagJson = @()
+foreach ($tag in $tags) {
+  $tagJson += (ConvertTo-JsonStringLiteral -Value $tag)
+}
+
+$payload = @"
+{"article":{"title":$(ConvertTo-JsonStringLiteral -Value $title),"published":$(([bool]$Publish).ToString().ToLowerInvariant()),"body_markdown":$(ConvertTo-JsonStringLiteral -Value $bodyMarkdown),"description":$(ConvertTo-JsonStringLiteral -Value $description),"tags":[$($tagJson -join ',')]}}
+"@
 $uri = "$($apiBaseUrl.TrimEnd('/'))/articles"
 
 $response = Invoke-RestMethod `
