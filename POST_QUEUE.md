@@ -11,6 +11,7 @@ Short English posts to publish every two weeks. These are meant to show applied 
 ## Drafted
 
 1. Why my first RAG layer starts in Postgres, not in a standalone vector database
+2. What I log from AI workflows before I trust the automation
 
 ## Next
 

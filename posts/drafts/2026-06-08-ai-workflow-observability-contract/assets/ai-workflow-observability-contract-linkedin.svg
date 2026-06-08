@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI workflow observability cover</title>
+  <desc id="desc">A public-safe 16 by 9 cover showing workflow, AI decision, review and trace panels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1522"/>
+      <stop offset="55%" stop-color="#0f1f33"/>
+      <stop offset="100%" stop-color="#101521"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39c7ff"/>
+      <stop offset="100%" stop-color="#2074d4"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffda79"/>
+      <stop offset="100%" stop-color="#f6a62f"/>
+    </linearGradient>
+    <filter id="glowBlue">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowAmber">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label { font: 500 21px 'Segoe UI', Arial, sans-serif; letter-spacing: 0.08em; }
+      .headline { font: 700 54px 'Segoe UI', Arial, sans-serif; letter-spacing: 0.01em; }
+      .sub { font: 400 24px 'Segoe UI', Arial, sans-serif; opacity: 0.85; }
+      .small { font: 600 19px 'Segoe UI', Arial, sans-serif; letter-spacing: 0.08em; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="785" cy="255" r="210" fill="#f5b24a" opacity="0.08"/>
+  <circle cx="270" cy="355" r="250" fill="#33baf7" opacity="0.05"/>
+  <circle cx="1370" cy="400" r="220" fill="#f5b24a" opacity="0.05"/>
+
+  <g opacity="0.4">
+    <path d="M0 360 C120 360 130 420 250 420 S390 360 500 390" fill="none" stroke="#2dafff" stroke-width="2"/>
+    <path d="M0 390 C120 390 130 450 250 450 S390 390 500 420" fill="none" stroke="#2dafff" stroke-width="1.5"/>
+    <path d="M1100 390 C1210 360 1260 360 1360 390 S1500 430 1600 410" fill="none" stroke="#f3b24f" stroke-width="2"/>
+    <path d="M1100 420 C1210 390 1260 390 1360 420 S1500 460 1600 440" fill="none" stroke="#f3b24f" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(90 250)">
+    <circle cx="120" cy="120" r="98" fill="none" stroke="#53bdff" stroke-width="4"/>
+    <rect x="56" y="79" width="104" height="78" rx="24" fill="#53bdff" opacity="0.16" stroke="#53bdff" stroke-width="3"/>
+    <path d="M84 157 L82 193 L116 160" fill="#53bdff"/>
+    <circle cx="88" cy="118" r="7" fill="#53bdff"/>
+    <circle cx="110" cy="118" r="7" fill="#53bdff"/>
+    <circle cx="132" cy="118" r="7" fill="#53bdff"/>
+    <text x="74" y="255" class="label" fill="#67cbff">WORKFLOW</text>
+  </g>
+
+  <g transform="translate(440 300)">
+    <rect x="0" y="0" width="210" height="170" rx="24" fill="#15253a" stroke="#4ebdff" stroke-width="3"/>
+    <ellipse cx="58" cy="50" rx="34" ry="13" fill="#48b9ff"/>
+    <path d="M24 50 v54 c0 8 15 15 34 15 s34-7 34-15 V50" fill="none" stroke="#48b9ff" stroke-width="3"/>
+    <path d="M24 78 c0 8 15 15 34 15 s34-7 34-15" fill="none" stroke="#48b9ff" stroke-width="3"/>
+    <path d="M24 104 c0 8 15 15 34 15 s34-7 34-15" fill="none" stroke="#48b9ff" stroke-width="3"/>
+    <g fill="#4ebdff" opacity="0.85">
+      <rect x="118" y="38" width="16" height="16" rx="3"/>
+      <rect x="145" y="38" width="16" height="16" rx="3" opacity="0.35"/>
+      <rect x="172" y="38" width="16" height="16" rx="3" opacity="0.35"/>
+      <rect x="118" y="65" width="16" height="16" rx="3" opacity="0.35"/>
+      <rect x="145" y="65" width="16" height="16" rx="3"/>
+      <rect x="172" y="65" width="16" height="16" rx="3" opacity="0.35"/>
+      <rect x="118" y="92" width="16" height="16" rx="3" opacity="0.35"/>
+      <rect x="145" y="92" width="16" height="16" rx="3" opacity="0.35"/>
+      <rect x="172" y="92" width="16" height="16" rx="3"/>
+    </g>
+    <text x="52" y="225" class="label" fill="#67cbff">CONTEXT</text>
+  </g>
+
+  <g transform="translate(730 290)">
+    <rect x="0" y="0" width="220" height="190" rx="26" fill="#1c2330" stroke="#ffcb6a" stroke-width="3" filter="url(#glowAmber)"/>
+    <path d="M108 52
+             c-22 0 -40 18 -40 40
+             c0 10 4 19 10 26
+             l-7 17
+             l24 -6
+             c4 2 9 3 13 3
+             c22 0 40 -18 40 -40
+             c0 -22 -18 -40 -40 -40 z" fill="none" stroke="#ffcb6a" stroke-width="4" opacity="0.9"/>
+    <circle cx="108" cy="92" r="8" fill="#ffcb6a"/>
+    <g stroke="#ffcb6a" stroke-width="4" stroke-linecap="round">
+      <path d="M108 84 V50"/>
+      <path d="M108 100 V138"/>
+      <path d="M100 92 H66"/>
+      <path d="M116 92 H150"/>
+      <path d="M99 83 L75 59"/>
+      <path d="M117 83 L141 59"/>
+      <path d="M99 101 L75 125"/>
+      <path d="M117 101 L141 125"/>
+    </g>
+    <g fill="#ffcb6a">
+      <circle cx="108" cy="44" r="6"/>
+      <circle cx="108" cy="144" r="6"/>
+      <circle cx="60" cy="92" r="6"/>
+      <circle cx="156" cy="92" r="6"/>
+      <circle cx="70" cy="54" r="6"/>
+      <circle cx="146" cy="54" r="6"/>
+      <circle cx="70" cy="130" r="6"/>
+      <circle cx="146" cy="130" r="6"/>
+    </g>
+    <text x="58" y="245" class="label" fill="#ffd98c">DECISION</text>
+  </g>
+
+  <g transform="translate(1060 300)">
+    <rect x="0" y="0" width="180" height="170" rx="24" fill="#15253a" stroke="#9db8d0" stroke-width="3"/>
+    <circle cx="86" cy="58" r="28" fill="#ffd07a"/>
+    <path d="M48 132 c4-34 18-52 38-52 c20 0 34 18 38 52z" fill="#ffd07a"/>
+    <circle cx="122" cy="105" r="19" fill="#0e1825" stroke="#ffd07a" stroke-width="4"/>
+    <path d="M113 106 l7 7 l13 -16" fill="none" stroke="#ffd07a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="35" y="225" class="label" fill="#d3dbe3">REVIEW</text>
+  </g>
+
+  <g transform="translate(1325 300)">
+    <rect x="0" y="0" width="180" height="170" rx="24" fill="#15253a" stroke="#9db8d0" stroke-width="3"/>
+    <g stroke-linecap="round">
+      <path d="M28 48 H114" stroke="#54c5ff" stroke-width="7"/>
+      <path d="M28 72 H142" stroke="#4d6a84" stroke-width="7"/>
+      <path d="M28 96 H128" stroke="#f0b34a" stroke-width="7"/>
+      <path d="M28 120 H146" stroke="#4d6a84" stroke-width="7"/>
+      <path d="M28 144 H118" stroke="#54c5ff" stroke-width="7"/>
+    </g>
+    <g fill="#54c5ff">
+      <circle cx="18" cy="48" r="4"/>
+      <circle cx="18" cy="72" r="4"/>
+      <circle cx="18" cy="96" r="4"/>
+      <circle cx="18" cy="120" r="4"/>
+      <circle cx="18" cy="144" r="4"/>
+    </g>
+    <text x="36" y="225" class="label" fill="#d3dbe3">TRACE</text>
+  </g>
+
+  <g stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M314 370 H438" stroke="url(#blue)" filter="url(#glowBlue)"/>
+    <path d="M650 385 H730" stroke="url(#blue)" filter="url(#glowBlue)"/>
+    <path d="M950 385 H1060" stroke="url(#amber)" filter="url(#glowAmber)"/>
+    <path d="M1240 385 H1325" stroke="#ffd07a"/>
+  </g>
+  <g fill="#0f1b29" stroke-width="4">
+    <circle cx="374" cy="370" r="23" stroke="#58c8ff"/>
+    <path d="M365 370 h18" stroke="#58c8ff" stroke-linecap="round"/>
+    <path d="M377 362 l8 8 l-8 8" stroke="#58c8ff" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="678" cy="385" r="23" stroke="#58c8ff"/>
+    <path d="M669 385 h18" stroke="#58c8ff" stroke-linecap="round"/>
+    <path d="M681 377 l8 8 l-8 8" stroke="#58c8ff" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1006" cy="385" r="23" stroke="#ffd07a"/>
+    <path d="M997 385 h18" stroke="#ffd07a" stroke-linecap="round"/>
+    <path d="M1009 377 l8 8 l-8 8" stroke="#ffd07a" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1286" cy="385" r="23" stroke="#ffd07a"/>
+    <path d="M1277 385 h18" stroke="#ffd07a" stroke-linecap="round"/>
+    <path d="M1289 377 l8 8 l-8 8" stroke="#ffd07a" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(300 600)">
+    <rect x="0" y="0" width="310" height="150" rx="24" fill="#121d2b" stroke="#38526f" stroke-width="3"/>
+    <text x="28" y="42" class="small" fill="#66cbff">TRACE</text>
+    <path d="M40 112 C66 112 70 78 96 78 S126 100 146 100 S180 54 206 54 S236 78 270 78" fill="none" stroke="#4ec2ff" stroke-width="4"/>
+    <circle cx="40" cy="112" r="8" fill="#4ec2ff"/>
+    <circle cx="96" cy="78" r="8" fill="#4ec2ff"/>
+    <circle cx="146" cy="100" r="8" fill="#4ec2ff"/>
+    <circle cx="206" cy="54" r="8" fill="#8cb9dd"/>
+    <circle cx="270" cy="78" r="8" fill="#39526b"/>
+  </g>
+
+  <g transform="translate(645 600)">
+    <rect x="0" y="0" width="325" height="150" rx="24" fill="#121d2b" stroke="#38526f" stroke-width="3"/>
+    <text x="28" y="42" class="small" fill="#ffd27d">COST</text>
+    <rect x="40" y="108" width="18" height="20" fill="#f6b23f"/>
+    <rect x="68" y="78" width="18" height="50" fill="#f6b23f"/>
+    <rect x="96" y="92" width="18" height="36" fill="#f6b23f"/>
+    <rect x="124" y="66" width="18" height="62" fill="#f6b23f"/>
+    <rect x="152" y="98" width="18" height="30" fill="#f6b23f"/>
+    <rect x="180" y="58" width="18" height="70" fill="#f6b23f"/>
+    <path d="M257 74
+             a40 40 0 1 1 -1 0" fill="none" stroke="#4a3921" stroke-width="18"/>
+    <path d="M257 74
+             a40 40 0 0 1 34 60" fill="none" stroke="#f6b23f" stroke-width="18"/>
+  </g>
+
+  <g transform="translate(1005 600)">
+    <rect x="0" y="0" width="365" height="150" rx="24" fill="#121d2b" stroke="#38526f" stroke-width="3"/>
+    <text x="28" y="42" class="small" fill="#66cbff">REVIEW</text>
+    <path d="M36 110 C62 110 70 70 94 70 S124 106 150 106 S184 58 210 58 S244 94 272 94 S308 40 332 40" fill="none" stroke="#4ec2ff" stroke-width="4"/>
+    <circle cx="332" cy="40" r="9" fill="#4ec2ff"/>
+    <g stroke="#30465f" stroke-width="2" opacity="0.7">
+      <path d="M36 64 H332"/>
+      <path d="M36 94 H332"/>
+      <path d="M36 124 H332"/>
+    </g>
+  </g>
+
+  <text x="90" y="115" class="headline" fill="#f5f8fb">AI Workflow Observability</text>
+  <text x="90" y="158" class="sub" fill="#b4c4d7">Trace decisions, cost and human review before you trust the automation.</text>
+</svg>

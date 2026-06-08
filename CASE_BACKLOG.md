@@ -9,6 +9,7 @@ This file intentionally avoids client names, private URLs, phone numbers, workfl
 | Candidate case | Public angle | Status | Metrics |
 | --- | --- | --- | --- |
 | [Context-Aware AI Reception Agent for Chat Commerce](cases/context-aware-ai-reception-agent/README.md) | AI agent that resolves commercial context before replying, using CRM, campaign/source signals and approved response rules. | Draft public version | metrics to collect |
+| [AI Workflow Observability Contract](cases/ai-workflow-observability-contract/README.md) | Contract-first trace layer for AI-assisted workflows, covering decision paths, human review, cost and safety fields across agents and automations. | Draft public version | metrics to collect |
 | [Operational Knowledge Retrieval Layer](cases/operational-knowledge-retrieval-layer/README.md) | RAG layer for operational playbooks, approved answers and lead/product context, with retrieval evals and observability. | Implementation blueprint | metrics to collect |
 | [Human-in-the-Loop Commercial Follow-up Automation](cases/human-in-the-loop-commercial-follow-up/README.md) | Follow-up workflow that prioritizes leads, respects operational limits and routes sensitive cases to human review. | Draft public version | metrics to collect |
 | [Lightweight ATS and Candidate Intake System](cases/lightweight-ats-candidate-intake/README.md) | Fast hiring intake layer connecting a careers portal, structured candidate scoring and operational handoff. | Draft public version | metrics to collect |
