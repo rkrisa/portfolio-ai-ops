@@ -15,7 +15,7 @@ This is stronger than a generic "AI engineer" narrative because it connects real
 | Gap | Public proof | First artifact |
 | --- | --- | --- |
 | RAG and long-context discipline | Operational retrieval layer using approved docs, playbooks and metadata | [Operational Knowledge Retrieval Layer](cases/operational-knowledge-retrieval-layer/README.md) |
-| Evals and observability | Trace every AI-assisted decision and score retrieval/answer quality | Eval checklist inside the retrieval case |
+| Evals and observability | Trace every AI-assisted decision and score retrieval/answer quality | [AI Workflow Observability Contract](cases/ai-workflow-observability-contract/README.md) |
 | Public technical vocabulary | Architecture notes in English using market language without inflating claims | [POST_QUEUE.md](POST_QUEUE.md) |
 | External proof | GitHub case updates, screenshots, diagrams and small public posts | Roadmap + case backlog |
 
