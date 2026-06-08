@@ -2,7 +2,7 @@
 
 ## Status
 
-DEV draft created. LinkedIn post ready. Asset ready.
+DEV draft verified. LinkedIn post ready. Asset ready.
 
 ## Source Case
 
@@ -27,4 +27,4 @@ DEV draft created. LinkedIn post ready. Asset ready.
 
 ## Draft URLs
 
-- DEV draft: <https://dev.to/rkrisa/what-i-log-from-ai-workflows-before-i-trust-the-automation-pea-temp-slug-3963721>
+- DEV draft verified: <https://dev.to/rkrisa/what-i-log-from-ai-workflows-before-i-trust-the-automation-pea-temp-slug-3963721>
