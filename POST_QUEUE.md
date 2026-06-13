@@ -12,13 +12,15 @@ Short English posts to publish every two weeks. These are meant to show applied 
 
 1. Why my first RAG layer starts in Postgres, not in a standalone vector database
 2. What I log from AI workflows before I trust the automation
+3. An AI customer ops agent is a workflow, not a prompt
 
 ## Next
 
-5. The difference between prompt context and operational context
-6. How to write golden questions for a small business RAG system
-7. A practical eval checklist for AI-assisted sales operations
-8. How I keep public AI case studies useful without exposing private data
+5. Human-in-the-loop is not a fallback, it is part of the product surface
+6. The difference between prompt context and operational context
+7. How to write golden questions for a small business RAG system
+8. A practical eval checklist for AI-assisted sales operations
+9. How I keep public AI case studies useful without exposing private data
 
 ## Publishing Rules
 

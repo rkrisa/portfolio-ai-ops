@@ -11,6 +11,7 @@ This file intentionally avoids client names, private URLs, phone numbers, workfl
 | [Context-Aware AI Reception Agent for Chat Commerce](cases/context-aware-ai-reception-agent/README.md) | AI agent that resolves commercial context before replying, using CRM, campaign/source signals and approved response rules. | Draft public version | metrics to collect |
 | [AI Workflow Observability Contract](cases/ai-workflow-observability-contract/README.md) | Contract-first trace layer for AI-assisted workflows, covering decision paths, human review, cost and safety fields across agents and automations. | Draft public version | metrics to collect |
 | [Operational Knowledge Retrieval Layer](cases/operational-knowledge-retrieval-layer/README.md) | RAG layer for operational playbooks, approved answers and lead/product context, with retrieval evals and observability. | Implementation blueprint | metrics to collect |
+| [AI Customer Operations Agent Workflow Sample](cases/ai-customer-operations-agent-sample/README.md) | Public-safe workflow sample combining CRM context, RAG shadow retrieval, deterministic guardrails, AI decision and audit logs. | Draft public version | metrics to collect |
 | [Human-in-the-Loop Commercial Follow-up Automation](cases/human-in-the-loop-commercial-follow-up/README.md) | Follow-up workflow that prioritizes leads, respects operational limits and routes sensitive cases to human review. | Draft public version | metrics to collect |
 | [Lightweight ATS and Candidate Intake System](cases/lightweight-ats-candidate-intake/README.md) | Fast hiring intake layer connecting a careers portal, structured candidate scoring and operational handoff. | Draft public version | metrics to collect |
 | [Marketplace ERP Read-Only Integration and Catalog Proxy](cases/marketplace-erp-catalog-proxy/README.md) | Secure read-first API integration for catalog/order visibility, with OAuth handled outside the repo and no write automation until homologation. | Draft public version | metrics to collect |
@@ -22,10 +23,12 @@ This file intentionally avoids client names, private URLs, phone numbers, workfl
 
 1. Context-Aware AI Reception Agent for Chat Commerce.
 2. Operational Knowledge Retrieval Layer.
-3. Human-in-the-Loop Commercial Follow-up Automation.
-4. Marketplace ERP Read-Only Integration and Catalog Proxy.
-5. Lightweight ATS and Candidate Intake System.
-6. CRM and WhatsApp Message Capture Foundation.
+3. AI Workflow Observability Contract.
+4. AI Customer Operations Agent Workflow Sample.
+5. Human-in-the-Loop Commercial Follow-up Automation.
+6. Marketplace ERP Read-Only Integration and Catalog Proxy.
+7. Lightweight ATS and Candidate Intake System.
+8. CRM and WhatsApp Message Capture Foundation.
 
 ## Evidence To Collect Before Writing
 

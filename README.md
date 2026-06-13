@@ -25,6 +25,7 @@ Core themes:
 | [Context-Aware AI Reception Agent for Chat Commerce](cases/context-aware-ai-reception-agent/README.md) | Draft public version | Context engineering, AI guardrails, CRM/campaign-aware response design |
 | [AI Workflow Observability Contract](cases/ai-workflow-observability-contract/README.md) | Draft public version | Langfuse-style tracing, decision auditability, human review and cost visibility |
 | [Operational Knowledge Retrieval Layer](cases/operational-knowledge-retrieval-layer/README.md) | Implementation blueprint | RAG, pgvector, retrieval quality, evals and AI observability |
+| [AI Customer Operations Agent Workflow Sample](cases/ai-customer-operations-agent-sample/README.md) | Draft public version | CRM context, RAG shadow, guardrails, AI decisions and audit logging |
 | [Human-in-the-Loop Commercial Follow-up Automation](cases/human-in-the-loop-commercial-follow-up/README.md) | Draft public version | Follow-up queues, lane limits, human review and revenue operations |
 | [Marketplace ERP Read-Only Integration and Catalog Proxy](cases/marketplace-erp-catalog-proxy/README.md) | Draft public version | OAuth/API integration, read-first automation and credential hygiene |
 | [Lightweight ATS and Candidate Intake System](cases/lightweight-ats-candidate-intake/README.md) | Draft public version | Careers portal, structured intake, role-fit scoring and hiring handoff |
